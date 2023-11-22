@@ -1,8 +1,8 @@
 # Platform Arena Game
 
-2D platformer game made with Unity engine. Used C# as scriptping language and free assets from unity store for animations and art.
+2D platformer game made with the Unity Engine. Used C# as scriptping language and free assets from the Unity Store for animations and art.
 
-The game has 2D traversal with shooting mechaning to deal with enemies, which have simple patrol and attack mechanich. There are prefabs for the assets such as traps, enemies, platforms and collectables which can be used at any time.
+The game has 2D traversal with shooting mechanic(shooting a blue fire ball) to deal with enemies. Enemies have a patrol script, which makes them patrol an area, if you are in range for their attack they will try to kill you. There are prefabs(reusable game objects) for the assets such as traps, enemies, platforms and collectables which can be used at any time.
 
 Start menu
 ![PlatformGuy](https://github.com/NikolayShtipkov/Platform-Arena-Game/assets/50198430/f6dfdd8a-d29f-4086-8d05-616dbaaa4628)
