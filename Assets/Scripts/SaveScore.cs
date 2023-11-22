@@ -26,8 +26,7 @@ public class SaveScore : MonoBehaviour
 
         Debug.Log("Connecting to database...");
 
-        connectionString = "Server=tcp:shared.database.windows.net,1433;Initial Catalog=scaleGuy;Persist Security Info=False;User ID=user;Password=9o48LPobi0tmFblCOftc;" +
-            "MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        connectionString = "{Insert connection string}";
 
         using (SqlConnection dbConnection = new SqlConnection(connectionString))
         try
