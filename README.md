@@ -4,6 +4,8 @@
 
 The game has 2D traversal with shooting mechanic(shooting a blue fire ball) to deal with enemies. Enemies have a patrol script, which makes them patrol an area, if you are in range for their attack they will try to kill you. There are prefabs(reusable game objects) for the assets such as traps, enemies, platforms and collectables which can be used at any time.
 
+Can be connected to a SQL database to keep track of scores and who they belong to. Used ADO.NET to connect to a database and insert or get the data from it.
+
 Start menu
 ![PlatformGuy](https://github.com/NikolayShtipkov/Platform-Arena-Game/assets/50198430/f6dfdd8a-d29f-4086-8d05-616dbaaa4628)
 
